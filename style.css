@@ -1,0 +1,52 @@
+body {
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./space);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Tangerine", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.quote-box {
+  background: #6b026e8a;
+  padding: 20px;
+  border-radius: 20%;
+  text-align: center;
+  width: 800px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+#quote {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+#author {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #411d21;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 20%;
+  cursor: pointer;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background: #dba203;
+}
